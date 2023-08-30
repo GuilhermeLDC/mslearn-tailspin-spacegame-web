@@ -5,7 +5,7 @@ pool:
     vmImage: Default
 
 variables:
-    buildConfiguration: 'release'
+    buildConfiguration: 'Release'
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
